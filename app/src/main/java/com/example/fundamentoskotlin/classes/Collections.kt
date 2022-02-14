@@ -51,4 +51,17 @@ fun main(){
     println(usersMap)
     println(usersMap.keys)
     println(usersMap.values)
+
+
+    newTopic("Mi data Class Propia")
+    val computer = Computer(1, "HP", 500, "Computadora con core i5")
+    computer.buy()
+    println(computer.number)
+
+    println(computer.name)
+
+    println(computer.price)
+
+    println(computer.description)
+
 }
